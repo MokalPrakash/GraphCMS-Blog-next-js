@@ -1,4 +1,4 @@
-import { Author, Categories, Comments, CommentsForm, Header, PostDetail, PostWidget } from "../../components"
+import { Author, Categories, Comments, CommentsForm, Header, Loader, PostDetail, PostWidget } from "../../components"
 import { getPostDetails,getPosts } from "../../services"
 import { useRouter } from "next/router"
 import AdjacentPost from "../../sections/adjacentPost"

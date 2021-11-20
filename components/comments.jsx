@@ -9,7 +9,7 @@ const Comments = ({ slug }) => {
         getComments(slug).then((result)=>{
             setComments(result)
         })
-    },[slug])
+    },[])
     return (
         <>
            {comments.length > 0 && (
